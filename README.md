@@ -10,7 +10,7 @@ There are no container GUIs: you right-click animated 3D stations and watch floa
 | Minecraft | 1.21.1 |
 | Fabric Loader | 0.16.5+ |
 | Fabric API | 0.102.0+1.21.1 or newer |
-| GeckoLib (Fabric) | 4.5.8+ for 1.21.1 |
+| GeckoLib (Fabric) | 4.7.7+ for 1.21.1 |
 | Java | 21 |
 
 GeckoLib is required on **both** the server and the client.
