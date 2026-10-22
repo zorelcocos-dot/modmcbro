@@ -28,6 +28,13 @@ jobs:
           pip install pillow
           python generate_assets.py
 
+      - name: List available GeckoLib versions
+        run: |
+          for a in geckolib-fabric-1.21.1 geckolib-fabric-1.21; do
+            echo "== $a"
+            curl -s https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/software/bernie/geckolib/$a/maven-metadata.xml | grep -o '<version>[^<]*</version>' | tail -15
+          done
+
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
