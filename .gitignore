@@ -1,0 +1,12 @@
+.gradle/
+build/
+out/
+run/
+classes/
+.idea/
+*.iml
+.vscode/
+bin/
+__pycache__/
+*.pyc
+javac.*.args

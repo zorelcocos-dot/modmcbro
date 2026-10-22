@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcaneforge:block/rune_altar",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "arcaneforge:block/rune_altar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcaneforge:block/rune_altar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcaneforge:block/rune_altar",
+      "y": 270
+    }
+  }
+}

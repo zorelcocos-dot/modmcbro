@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcaneforge:block/mold_table",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "arcaneforge:block/mold_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcaneforge:block/mold_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcaneforge:block/mold_table",
+      "y": 270
+    }
+  }
+}

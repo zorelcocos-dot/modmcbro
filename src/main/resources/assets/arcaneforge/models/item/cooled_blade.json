@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "arcaneforge:item/greatsword_blade"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "arcaneforge:weapon_type": 0.25
+      },
+      "model": "arcaneforge:item/katana_blade"
+    },
+    {
+      "predicate": {
+        "arcaneforge:weapon_type": 0.5
+      },
+      "model": "arcaneforge:item/warhammer_blade"
+    },
+    {
+      "predicate": {
+        "arcaneforge:weapon_type": 0.75
+      },
+      "model": "arcaneforge:item/warscythe_blade"
+    },
+    {
+      "predicate": {
+        "arcaneforge:weapon_type": 1.0
+      },
+      "model": "arcaneforge:item/daggers_blade"
+    }
+  ]
+}

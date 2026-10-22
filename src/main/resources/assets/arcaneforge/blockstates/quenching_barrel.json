@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcaneforge:block/quenching_barrel",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "arcaneforge:block/quenching_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcaneforge:block/quenching_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcaneforge:block/quenching_barrel",
+      "y": 270
+    }
+  }
+}
