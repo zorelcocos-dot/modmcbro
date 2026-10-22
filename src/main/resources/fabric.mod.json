@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "arcaneforge",
+  "version": "${version}",
+  "name": "Arcane Forge: 3D Physical Blacksmithing & Modular Weapons",
+  "description": "Smelt, pour, hammer, quench and awaken legendary rune weapons at fully physical, GUI-free 3D forging stations.",
+  "authors": ["Arcane Forge Team"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/arcaneforge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.arcaneforge.ArcaneForge"],
+    "client": ["com.arcaneforge.client.ArcaneForgeClient"]
+  },
+  "mixins": [
+    {
+      "config": "arcaneforge.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": ">=${geckolib_version}"
+  }
+}

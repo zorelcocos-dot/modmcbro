@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "arcaneforge:smeltery",
+    "arcaneforge:mold_table",
+    "arcaneforge:forge_anvil",
+    "arcaneforge:rune_altar"
+  ]
+}

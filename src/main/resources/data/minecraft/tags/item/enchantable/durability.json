@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "arcaneforge:solaris_greatsword",
+    "arcaneforge:voidstep_katana",
+    "arcaneforge:thunderlord_warhammer",
+    "arcaneforge:frostbite_warscythe",
+    "arcaneforge:bloodmoon_daggers",
+    "arcaneforge:forging_hammer"
+  ]
+}
